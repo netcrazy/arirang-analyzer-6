@@ -268,7 +268,7 @@ public final class KoreanTokenizer extends Tokenizer {
 
 
     private boolean isPreserveSymbol(char c) {
-        return (c=='#' || c=='+' || c=='-' || c=='/' || c=='·' || c == '&' || c == '_');
+        return (c=='#');
     }
 
     @Override
